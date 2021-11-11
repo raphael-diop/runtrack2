@@ -1,0 +1,1 @@
+SELECT salles.nom, etage.nom FROM `etage` INNER JOIN `salles` WHERE salles.id_etage = etage.id
